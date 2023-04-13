@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.App {
+  max-width:400px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+button{
+  background:none;
+  border: 2px solid #fff;
+  margin-top: 100px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  font-size:1.5em;
+}
+
+
+button:hover {
+  background: #c23866;
+  color:#fff;
+  transition-delay: 0.25s;
+}
+
+
+.card-grid {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
